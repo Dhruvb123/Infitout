@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+    background-color: white;
+}
+.logo{
+    padding: 0px 10px ;
+    margin:0px 50px;
+}
+.menu{
+    padding: 10px ;
+    font-weight: 400;
+}
+.menu>span{
+    padding: 0px 10px;
+    width: max-content;
+    font-weight: 500;
+}
+.menu>span:hover{
+    color: blue;
+    cursor: pointer;
+}
+.stocks{
+    display: flex;
+    padding: 0px 40px;
+    font-weight: 300;
+    margin:0px 100px;
+}
+.stocks>span{
+    padding: 12px;
+    width: max-content;
+
+}
+.p-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.name{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    font-weight: 300 !important;
+}
+.percent{
+    font-size: 10px;
+    font-weight: 400;
+    padding-bottom: 2px;
+    color: limegreen;
+}
+.-ve{
+    color: red;
+}
+.price{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.profile{
+    padding: 10px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.profile:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    width: 0px;
+}

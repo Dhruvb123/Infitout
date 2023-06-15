@@ -1,0 +1,101 @@
+.basket-container{
+    padding: 3px 6px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 12px;
+}
+.b-button{
+    font-size: 10px !important;
+    padding: 8px 25px!important;
+    background-color:  #007bff !important;
+    color: white !important;
+    border-radius: 4px !important;
+    margin: 0px 5px !important;
+    box-shadow: none !important;
+
+}
+.basket-content {
+    position: fixed;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 2;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+.b-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #007bff;
+    color: white;
+}
+.h-data{
+    width: max-content;
+    padding: 15px 25px;
+}
+.b-footer{
+    display: flex;
+    padding: 5px;
+}
+.fd{
+    display: flex;
+    padding: 4px 10px;
+}
+.fd1{
+    padding: 0px 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.btn1{
+    background-color: rgba(255,215,0,255) !important;
+    padding: 4px 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin: 17px 12px;
+}
+.fBox{
+    display: flex;
+    padding-left: 45px;
+    padding-right: 0px;
+}
+.btn2{
+    background-color: white;
+    color: #007bff;
+    border: 1px solid #007bff !important;
+    padding: 4px 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin: 17px 6px;
+}
+.btn3{
+    background-color: #007bff !important;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin: 17px 6px;
+}
+.b-data{
+    font-size: 12px ;
+    font-weight: 300 ;
+    padding: 0px;
+}
+.table-borderless{
+    padding: 5px;
+}
+.table-borderless td {
+    border: none;
+    padding: 5px 14px; 
+    font-size: 14px;
+    font-weight: 400;
+  }
+button:hover{
+    cursor: pointer;
+}

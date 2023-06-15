@@ -1,0 +1,132 @@
+
+.container1{
+    margin: 15px 13%;
+    display: flex;
+    background-color: white;
+}
+.box{
+    border: 1px solid rgb(183, 181, 181);;
+    padding: 8px 4px;
+    width: 120px;
+    height: fit-content;
+    margin: 6px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+    font-weight: bold;
+    min-height: 30x;
+}
+.name{
+    font-size: 12px;
+    font-weight: 500 !important;
+}
+.box1{
+    padding: 3px 2px;
+    width: fit-content;
+    height: fit-content;
+    margin: 3px  ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.p-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.name1{
+    display: flex;
+    justify-content: flex-start;
+    font-size: small;
+    font-weight: 400;
+    color: rgb(183, 181, 181);
+    width: max-content;
+}
+.percent1{
+    font-size: 12px;
+    font-weight: 400;
+    color: limegreen;
+    display: flex;
+    align-items: flex-end;
+}
+.price1{
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-start;
+}
+.BOX1{
+    display: flex;
+    margin: 0px 10px;
+}
+.BOX2{
+    display: flex;
+    margin: 0px 70px;
+}
+.box2{
+    margin: 3px 8px;
+    padding: 3px 5px;
+}
+.filters{
+    margin: 3px 6px;
+    display: flex;
+    align-items: center;
+}
+.filters:hover{
+    cursor: pointer;
+}
+.basket{
+    margin: 3px 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.main-btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3px;
+}
+.twobutton{
+    display: flex;
+    margin: 16px 2px;
+    justify-content: flex-end;
+}
+
+.buttons{
+    font-size: 10px !important;
+    padding: 8px 16px!important;
+    background-color:  #007bff !important;
+    color: white !important;
+    border-radius: 10px !important;
+    margin: 0px 5px !important;
+    box-shadow: none !important;
+}
+.buttons1{
+    font-size: 10px !important;
+    padding: 8px 16px!important;
+    background-color: lightgrey !important;
+    color: black !important;
+    border-radius: 10px !important;
+    margin: 0px 5px !important;
+    box-shadow: none !important;
+}
+
+.box-filter{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
